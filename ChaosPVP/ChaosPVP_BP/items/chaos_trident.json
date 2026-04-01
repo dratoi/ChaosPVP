@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "chaos:trident",
+      "menu_category": { "category": "equipment" }
+    },
+    "components": {
+      "minecraft:display_name": { "value": "Chaos Trident" },
+      "minecraft:icon": { "texture": "trident" },
+      "minecraft:hand_equipped": true,
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": { "slot": "trident", "value": 20 },
+      "minecraft:use_animation": "trident",
+      "minecraft:use_modifiers": {
+        "movement_modifier": 0.8,
+        "use_duration": 72000.0
+      },
+      "minecraft:custom_components": [ "chaos:trident_riptide" ]
+    }
+  }
+}

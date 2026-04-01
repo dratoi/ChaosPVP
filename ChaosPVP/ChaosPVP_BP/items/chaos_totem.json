@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "chaos:totem_of_undying",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": { "value": "Chaos Totem" },
+      "minecraft:icon": { "texture": "totem" },
+      "minecraft:max_stack_size": 1, 
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": true,
+      "minecraft:wearable": {
+        "slot": "slot.offhand"
+      },
+      "minecraft:totem": {
+        "protection_effects": [
+          { "name": "regeneration", "duration": 40, "amplifier": 1 },
+          { "name": "fire_resistance", "duration": 40, "amplifier": 0 },
+          { "name": "absorption", "duration": 5, "amplifier": 1 }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "chaos:mace_recipe"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " H ",
+      " H ",
+      " S "
+    ],
+    "key": {
+      "H": { "item": "minecraft:heavy_core" },
+      "S": { "item": "minecraft:stick" }
+    },
+    "result": {
+      "item": "minecraft:chaos_mace",
+      "count": 1
+    }
+  }
+}

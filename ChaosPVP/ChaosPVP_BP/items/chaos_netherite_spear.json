@@ -1,0 +1,55 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "chaos:netherite_spear",
+      "menu_category": { 
+        "category": "equipment", 
+        "group": "itemGroup.name.sword" 
+      }
+    },
+    "components": {
+      "minecraft:custom_components": [ 
+        "chaos:spear_controller" 
+      ],
+      "minecraft:display_name": { 
+        "value": "Netherite Spear" 
+      },
+      "minecraft:icon": { 
+        "texture": "netherite_spear" 
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": 8,
+      "minecraft:durability": { 
+        "max_durability": 2031 
+      },
+      "minecraft:item_properties": { 
+        "fire_resistant": true 
+      },
+      "minecraft:attribute_modifiers": {
+        "modifiers": [ 
+          { 
+            "attribute": "minecraft:reach_distance", 
+            "amount": 3.5, 
+            "operation": "addition", 
+            "slot": "hand" 
+          } 
+        ]
+      },
+      "minecraft:use_duration": 72000,
+      "minecraft:use_animation": "spear",
+      "minecraft:enchantable": { 
+        "slot": "sword", 
+        "value": 15 
+      },
+      "minecraft:repairable": { 
+        "repair_items": [ 
+          { 
+            "items": [ "minecraft:netherite_ingot" ], 
+            "repair_amount": 1000 
+          } 
+        ] 
+      }
+    }
+  }
+}
